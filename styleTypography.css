@@ -54,6 +54,10 @@ nav {
     text-align: center; 
 }
 
+.headerSection h3 {
+    color:white;
+}
+
 .headerSection a{
     color:white;
 }
@@ -77,7 +81,8 @@ p {
 h3 {
     text-align: center;
     font-family: 'Gabarito', sans-serif;
-    font-size: 25px;
+    font-size: 28px;
+    color: #7165BF;
 }
 
 q {
@@ -119,6 +124,10 @@ footer{
 }
 
 footer a {
+    color: white;
+}
+
+footer h3 {
     color: white;
 }
 
