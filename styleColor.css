@@ -14,7 +14,7 @@ nav {
 }
 
 .topnav {
-    background-color: #112626;
+    background-color:#BCA2F2;
     overflow: hidden;
 }
 
@@ -45,7 +45,7 @@ nav {
 /* Document CSS Styling */
 
 .headerSection {
-    background-color: #112626; 
+    background-color: #7165BF; 
     color: white; 
     padding: 50px; 
     margin-top: 1px;
@@ -54,14 +54,18 @@ nav {
     text-align: center; 
 }
 
-.headerSection a{
-    color: white;
+.headerSection a {
+    color:white;
+}
+
+.headerSection a:hover {
+    color: #79A2F2;
 }
 
 body{
     margin: 0;
-    background: white;
-    color: black;
+    background: #ffffff;
+    color: rgb(0, 0, 0);
 }
 
 p {
@@ -103,25 +107,56 @@ a {
     color: black;
 }
 
+.smallText {
+    text-align: justify;
+    color:grey;
+}
+
+.firstSection {
+    padding-bottom: 1em;
+}
+
+.firstSection a:hover {
+    color: #79A2F2;
+}
+
+.secondSection {
+    background-color: #C4CBF2 ;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.natureImage {
+    padding-top: 1em;
+    text-align: center;
+}
+
+.thirdSection {
+    padding-bottom: 1em;
+}
+
+.fourthSection {
+    background-color: #C4CBF2;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.fifthSection {
+    padding-bottom: 2em;
+}
+
 .setImages {
     text-align: center; /* Center images horizontally within the container */
 }
 
 footer{
     background-color: black;
-    color: white;
     padding-top: 2em;
-}
-
-footer a {
-    color: white
-}
-
-#finalThoughtsText {
+    color: white;
     padding-bottom: 2em;
 }
 
-.buttonIcons a:hover{
-    background-color: black;
+footer a {
+    color: white;
 }
-  
+

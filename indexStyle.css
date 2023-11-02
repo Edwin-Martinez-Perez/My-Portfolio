@@ -14,7 +14,7 @@ nav {
 }
 
 .topnav {
-    background-color: #112626;
+    background-color: #BCA2F2;
     overflow: hidden;
 }
 
@@ -45,7 +45,7 @@ nav {
 /* Document CSS Styling */
 
 .headerSection {
-    background-color: #112626; 
+    background-color: #7165BF; 
     color: white; 
     padding: 50px; 
     margin-top: 1px;
@@ -56,8 +56,8 @@ nav {
 
 body{
     margin: 0;
-    background: #287373;
-    color: white;
+    background: #ffffff;
+    color: rgb(0, 0, 0);
 }
 
 p {
@@ -85,26 +85,45 @@ q {
     font-style: italic;
 }
 
+.myImage {
+    padding-top: 2em;
+    text-align: center;
+}
+
 .bulletedList {
     font-family: 'Gabarito', sans-serif;
     text-align: justify;
     margin: 25em;
     margin-top: 0;
     margin-bottom: 0; 
-    font-size: 17px;
+    font-size: 20px;
     
 }
 
+.addPadding{
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
 a {
-    color: white;
+    color: black;
 }
 
 .setImages {
     text-align: center; /* Center images horizontally within the container */
 }
 
+.aboutParagraph {
+    padding-top: 2em;
+}
+
 footer{
     background-color: black;
     padding-top: 2em;
+    color: white;
+}
+
+footer a {
+    color: white;
 }
 

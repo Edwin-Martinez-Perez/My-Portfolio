@@ -4,38 +4,48 @@
 /* Top Navigation UI Elements */
 
 /* Add a black background color to the top navigation */
+
+nav {
+    text-align: center;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
 .topnav {
-  background-color: #333;
-  overflow: hidden;
+    background-color: #BCA2F2;
+    overflow: hidden;
 }
 
 /* Style the links inside the navigation bar */
 .topnav a {
-  float: left;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    margin: 0;                           
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
 }
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: #ddd;
-  color: black;
+    background-color: #ddd;
+    color: black;
 }
 
 /* Add a color to the active/current link */
 .topnav a.active {
-  background-color: #04AA6D;
-  color: white;
+    background-color: #000;
+    color: white;
 }
 
 
 /* Document CSS Styling */
 
 .headerSection {
-    background-color: #112626; 
+    background-color: #7165BF; 
     color: white; 
     padding: 50px; 
     margin-top: 1px;
@@ -46,8 +56,12 @@
 
 body{
     margin: 0;
-    background: #287373;
-    color: white;
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+}
+
+h2{
+    text-align: center;
 }
 
 p {
@@ -75,13 +89,45 @@ q {
     font-style: italic;
 }
 
+.centerThisLine {
+    text-align: center;
+}
+
+.columnList{
+    font-family: 'Gabarito', sans-serif;
+    column-count: 2;
+    text-align: center;
+    margin-left: 40em;
+    margin-right:36em;
+
+}
+
+.setHierarchyImage {
+    text-align:center;
+    padding-bottom:1em;
+}
+
+.setRepImage {
+    text-align: center;
+}
+
+.columnList li {
+    text-align: justify;
+    font-size: 18px;
+}
+
 .bulletedList {
     font-family: 'Gabarito', sans-serif;
-    text-align: justify;
-    margin: 25em;
+    text-align: center;
+    margin: 26em;
     margin-top: 0;
     margin-bottom: 0; 
-    font-size: 17px;
+
+}
+
+.bulletedList li {
+    text-align: justify;
+    font-size: 16px;
     
 }
 
@@ -89,12 +135,51 @@ a {
     color: white;
 }
 
+.colorSection {
+    background-color: #C4CBF2;
+    padding-top: 1px ;
+}
+
+.fifth {
+    padding-bottom: 1em;
+}
+
+.container {
+    position: relative;
+    padding-top: 2em;
+    padding-bottom: 2em;
+  }
+  
+  .center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+
+  .buttonStyle {
+    font-size: 20px;
+    color:white;
+    background-color:#79A2F2;
+    border-radius: 6px;
+    border: 0;
+    padding: 10px;
+
+  }
+
+.buttonStyle:hover {
+    color: black;
+}
+
 .setImages {
     text-align: center; /* Center images horizontally within the container */
 }
 
 footer{
-    background-color: black;
+    background-color: white;
     padding-top: 2em;
+    color: white;
 }
 
