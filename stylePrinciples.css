@@ -117,6 +117,23 @@ q {
     font-size: 18px;
 }
 
+.firstSection {
+    background-color: #C4CBF2;
+    padding-bottom: 1em;
+    padding-top: 1em;
+}
+
+.secondSection {
+    padding-bottom: 1em;
+}
+
+.thirdSection {
+    background-color:#C4CBF2;
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
 .bulletedList {
     font-family: 'Gabarito', sans-serif;
     text-align: center;
